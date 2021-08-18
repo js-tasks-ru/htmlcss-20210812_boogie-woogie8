@@ -1,1 +1,68 @@
 /* Стилизация кнопки */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons__item {
+    width: 182px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 32px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.buttons__item:disabled {
+    opacity: 0.5;
+    cursor: default;
+    user-select: none;
+}
+
+.buttons__item--primary {
+    background-color: var(--primary);
+}
+
+.buttons__item--primary:hover, .buttons__item--primary:focus, .buttons__item--primary:active {
+    background-color: #2342c0;
+}
+
+.buttons__item--primary:disabled:hover {
+    background-color: var(--primary);
+}
+
+.buttons__item--secondary {
+    background-color: var(--secondary);
+}
+
+.buttons__item--secondary:hover, .buttons__item--secondary:focus, .buttons__item--secondary:active {
+    background-color: #5028C6;
+}
+
+.buttons__item--secondary:disabled:hover {
+    background-color: var(--secondary);
+}
+
+.buttons__item--alternate {
+    background-color: var(--white);
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+}
+
+.buttons__item--alternate:hover, .buttons__item--alternate:focus, .buttons__item--alternate:active {
+    border: 1px solid var(--black);
+}
+
+.buttons__item--alternate:disabled:hover {
+    border: 1px solid var(--grey-3);
+}
