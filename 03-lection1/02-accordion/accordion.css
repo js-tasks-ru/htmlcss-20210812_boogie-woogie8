@@ -1,22 +1,23 @@
 /* Стилизация аккордеона */
 
-details summary::-webkit-details-marker {
+.accordion__item .accordion__summary::-webkit-details-marker {
     display: none;
 }
 
-details > summary {
+.accordion__item > .accordion__summary {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-details summary::after {
+.accordion__item .accordion__summary::after {
     content: '\f078';
     font-family: FontAwesome;
+    cursor: pointer;
   }
   
   /* Добавляем собственный маркер для открытого состояния */
-  details[open] summary::after {
+  .accordion__item[open] .accordion__summary::after {
     content: '\f077';
   }
 
