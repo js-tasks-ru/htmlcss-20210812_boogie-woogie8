@@ -1,16 +1,16 @@
 /* Стилизация аккордеона */
 
-.accordion__item .accordion__summary::-webkit-details-marker {
+.accordion__summary::-webkit-details-marker {
     display: none;
 }
 
-.accordion__item > .accordion__summary {
+.accordion__summary {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-.accordion__item .accordion__summary::after {
+.accordion__summary::after {
     content: '\f078';
     font-family: FontAwesome;
     cursor: pointer;
