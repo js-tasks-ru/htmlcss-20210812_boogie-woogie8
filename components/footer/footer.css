@@ -2,7 +2,7 @@
     background-color: var(--white);
     padding: 71px 0 136px;
     text-align: center;
-    color: #212429;
+    color: var(--black);
     font-family: Inter;
     font-style: normal;
 }
@@ -18,6 +18,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
 }
