@@ -27,9 +27,17 @@
 }
 
 .skeleton__field {
-    background-color: var(--grey-2);
+    background: var(--gradient);
     flex-basis: 20px;
     margin-bottom: 8px;
+}
+
+.skeleton__field_short {
+    width: 30%;
+}
+
+.skeleton__field_medium {
+    width: 50%;
 }
 
 .skeleton__field-wrapper {
