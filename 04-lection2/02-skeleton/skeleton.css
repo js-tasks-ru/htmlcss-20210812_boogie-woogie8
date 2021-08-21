@@ -1,0 +1,40 @@
+.skeleton {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skeleton__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.skeleton__body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.skeleton__avatar {
+    background-color: var(--grey-2);
+    border-radius: 50%;
+    flex-basis: 64px;
+    height: 64px;
+    margin-right: 16px;
+}
+
+.skeleton__field {
+    background-color: var(--grey-2);
+    flex-basis: 20px;
+    margin-bottom: 8px;
+}
+
+.skeleton__field-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 76%;
+}
+
