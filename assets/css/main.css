@@ -1,10 +1,10 @@
 @import '../fonts/fonts.css';
-
 :root {
     --white: #ffffff;
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
+    --purple-hover: #5028C6;
     --blue: #374FC7; 
     --blue-link: #4263EB;
     --red: #F03D3E;
@@ -12,14 +12,31 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
-
+    --main: #f9fafc;
+    --gradient: linear-gradient(92.51deg, var(--grey-2) 6.44%, #e2e6e8 38.47%, #f3f5f5 56.48%, #e3e7ea 77.5%, #dde2e5 102.52%);;
     --error: var(--red);
     --success: var(--blue);
-
     --primary: var(--blue);
+    --primary-hover: var(--blue-hover);
     --secondary: var(--purple);
+    --secondary-hover: var(--purple-hover);
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.page__box {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
 }
