@@ -43,11 +43,10 @@
     align-items: flex-end;
     max-width: 100%;
     flex-basis: 150px;
-    flex-grow: 2;
 }
 
 .histogram__scale {
     background-color: var(--blue-link);
     flex-basis: 9px;
-    flex-grow: 2;
+    flex-grow: 1;
 }
