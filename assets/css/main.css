@@ -2,15 +2,15 @@
 :root {
     --white: #ffffff;
     --black: #212429;
-    --pink: #f784ad;
-    --purple: #7048e8;
-    --purple-hover: #5028c6;
-    --blue: #4263eb;
-    --blue-hover: #2342c0;
-    --red: #f03d3e;
-    --grey-1: #f8f9fa;
-    --grey-2: #dde2e5;
-    --grey-3: #acb5bd;
+    --pink: #F784AD;
+    --purple: #7048E8;
+    --purple-hover: #5028C6;
+    --blue: #374FC7; 
+    --blue-link: #4263EB;
+    --red: #F03D3E;
+    --grey-1: #F8F9FA;
+    --grey-2: #DDE2E5;
+    --grey-3: #ACB5BD;
     --grey-4: #495057;
     --main: #f9fafc;
     --gradient: linear-gradient(92.51deg, var(--grey-2) 6.44%, #e2e6e8 38.47%, #f3f5f5 56.48%, #e3e7ea 77.5%, #dde2e5 102.52%);;
