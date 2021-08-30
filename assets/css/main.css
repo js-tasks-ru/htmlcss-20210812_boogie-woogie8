@@ -2,11 +2,14 @@
 :root {
     --white: #ffffff;
     --black: #212429;
+    --dark-text: #334D6E;
+    --light-text: #90A0B7;
     --pink: #F784AD;
     --purple: #7048E8;
     --purple-hover: #5028C6;
     --blue: #374FC7; 
     --blue-link: #4263EB;
+    --light-blue: #A0B1F5B3;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
