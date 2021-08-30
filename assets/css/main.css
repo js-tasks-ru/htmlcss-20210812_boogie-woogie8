@@ -15,6 +15,8 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-modal: #c4c4c4;
+    --grey-bg: #334D6E;
     --main: #f9fafc;
     --gradient: linear-gradient(92.51deg, var(--grey-2) 6.44%, #e2e6e8 38.47%, #f3f5f5 56.48%, #e3e7ea 77.5%, #dde2e5 102.52%);;
     --error: var(--red);
