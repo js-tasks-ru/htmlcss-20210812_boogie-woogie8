@@ -19,18 +19,18 @@
     margin: 40px 0 0;
 }
 
-.logo {
+.header__logo {
     display: flex;
 }
 
-.logo__square {
+.header__logo-square {
     width: 30px;
     height: 30px;
     background-color: var(--black);
     margin-right: 8px;
 }
 
-.logo__circle {
+.header__logo-circle {
     width: 30px;
     height: 30px;
     background-color: var(--black);
@@ -38,7 +38,7 @@
     margin-right: 8px;
 }
 
-.logo__triangle {
+.header__logo-triangle {
     border: 15px solid var(--black);
     border-top-color: transparent;
     border-right-color: transparent;
