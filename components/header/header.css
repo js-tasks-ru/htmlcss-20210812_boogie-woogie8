@@ -1,7 +1,13 @@
+.page__box_header {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+}
+
 .header {
     background-color: var(--white);
     padding: 97px 0 77px;
     font-family: Inter;
+    border-bottom: 1px solid var(--grey-2);
 }
 
 .header__title {
@@ -10,5 +16,30 @@
     font-size: 50px;
     line-height: 64px;
     color: var(--black);
-    margin: 0;
+    margin: 40px 0 0;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo__square {
+    width: 30px;
+    height: 30px;
+    background-color: var(--black);
+    margin-right: 8px;
+}
+
+.logo__circle {
+    width: 30px;
+    height: 30px;
+    background-color: var(--black);
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.logo__triangle {
+    border: 15px solid var(--black);
+    border-top-color: transparent;
+    border-right-color: transparent;
 }
