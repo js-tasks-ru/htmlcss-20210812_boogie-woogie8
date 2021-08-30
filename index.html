@@ -4,6 +4,7 @@
     <head>
         <link rel="stylesheet" href="./assets/css/main.css">
         <link rel="stylesheet" href="./components/header/header.css">
+        <link rel="stylesheet" href="./components/navigation/nav.css">
         <link rel="stylesheet" href="./components/main/main.css">
         <link rel="stylesheet" href="./components/footer/footer.css">
         <link rel="stylesheet" href="./components/preview/preview.css">
@@ -11,7 +12,20 @@
     </head>
     <body class="page">
         <header class="header">
-            <div class="page__box">
+            <div class="page__box page__box_header">
+                <div class="header__logo">
+                    <div class="header__logo-square"></div>
+                    <div class="header__logo-circle"></div>
+                    <div class="header__logo-triangle"></div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__point nav__point_active">Components</li>
+                        <li class="nav__point">About</li>
+                        <li class="nav__point">Contact</li>
+                    </ul>
+                </nav>
+                <div class="switch"></div>
                 <h1 class="header__title">Reusable component library</h1>
             </div>
         </header>

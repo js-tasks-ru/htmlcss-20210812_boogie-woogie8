@@ -1,6 +1,7 @@
 @import '../fonts/fonts.css';
 :root {
     --white: #ffffff;
+    --base-black: #000000;
     --black: #212429;
     --dark-text: #334D6E;
     --light-text: #90A0B7;
@@ -35,13 +36,50 @@ html, body {
     height: 100%;
 }
 
-.page {
+/*.page {
     display: flex;
     flex-direction: column;
-}
+}*/
 
 .page__box {
     max-width: 1110px;
     width: 100%;
     margin: 0 auto;
+}
+
+.page {
+    height: 100%;
+    background-color: var(--main);
+    display: grid;
+    grid-template-areas: "header"
+    "main"
+    "footer";
+    grid-template-rows: auto 1fr auto;
+    row-gap: 36px;
+}
+
+.page__main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 56px;
+    max-width: 1110px;
+    width: 100%;
+    justify-self: center;
+    grid-area: main;
+}
+
+.page__footer {
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--grey-3);
+    max-width: 1110px;
+    width: 100%;
+    grid-area: footer;
+    justify-self: center;
+    padding: 24px 0 56px;
 }
