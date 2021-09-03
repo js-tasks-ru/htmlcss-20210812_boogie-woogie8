@@ -1,0 +1,46 @@
+.avatar {
+    border-radius: 8px;
+    border: 1px solid  var(--grey-3);
+    padding: 58px 95px 32px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar__label {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url("../01-avatar/public/avatar-200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 67px;
+    cursor: pointer;
+}
+
+.avatar__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 6px;
+}
+
+.avatar__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--grey-4);
+}
+
