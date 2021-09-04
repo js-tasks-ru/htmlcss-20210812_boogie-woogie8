@@ -41,11 +41,32 @@ html, body {
     flex-direction: column;
 }*/
 
-.page__box {
-    max-width: 1110px;
-    width: 100%;
-    margin: 0 auto;
+@media screen and (min-width: 375px) {
+    .page__box {
+        max-width: 343px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .page__main {
+        max-width: 343px;
+        width: 100%;
+        justify-self: center;
+        grid-area: main;
+    }
 }
+
+@media screen and (min-width: 1440px) {
+    .page__box {
+        max-width: 1110px;
+    }
+    .page__main {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 56px;
+        max-width: 1110px;
+    }
+}
+
 
 .page {
     height: 100%;
@@ -58,15 +79,7 @@ html, body {
     row-gap: 36px;
 }
 
-.page__main {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    column-gap: 56px;
-    max-width: 1110px;
-    width: 100%;
-    justify-self: center;
-    grid-area: main;
-}
+
 
 .page__footer {
     text-align: center;

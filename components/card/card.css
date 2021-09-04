@@ -1,10 +1,19 @@
-.card {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--white);
-    border-radius: 12px;
-    flex-basis: 350px;
-    height: 367px;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+@media screen and (min-width: 375px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white);
+        border-radius: 12px;
+        flex-basis: 164px;
+        height: 210px;
+        box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    }
 
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        flex-basis: 350px;
+        height: 367px;
+    }
 }
