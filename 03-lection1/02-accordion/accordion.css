@@ -8,18 +8,19 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.accordion__summary::after {
-    content: '\f078';
-    font-family: FontAwesome;
-    cursor: pointer;
-  }
-  
-  /* Добавляем собственный маркер для открытого состояния */
-  .accordion__item[open] .accordion__summary::after {
-    content: '\f077';
-  }
+.accordion__item[open] .accordion__icon{
+    transform: rotate(180deg);
+}
+
+.accordion__icon {
+    text-align: right;
+    width: 30px;
+    height: 20px;
+    display: block;
+}
 
 .accordion__item {
     margin-bottom: 8px;

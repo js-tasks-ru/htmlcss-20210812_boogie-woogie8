@@ -83,3 +83,33 @@ html, body {
     justify-self: center;
     padding: 24px 0 56px;
 }
+
+@media screen and (min-width: 375px) {
+    .page__box {
+        max-width: 343px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .page__main {        
+        max-width: 343px;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-self: center;
+        grid-area: main;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .page__box {
+        max-width: 1110px;
+    }
+    
+    .page__main {
+        grid-template-columns: auto 1fr;
+        column-gap: 56px;
+        max-width: 1110px;
+    }
+
+}
