@@ -6,6 +6,38 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
+        <form class="form">
+            <label class="form__label">
+                Label
+                <input type="text" class="form__input" placeholder="Placeholder">
+            </label>
+            <label class="form__label">
+                Focus
+                <input type="text" class="form__input" placeholder="placeholder" value="Filled input" autofocus>
+            </label>
+            <label class="form__label">
+                Success
+                <div class="form__input-wrapper">
+                    <input type="text" class="form__input form__input_success" placeholder="placeholder" value="Success">
+                    <svg class="form__icon form__icon_success">
+                        <use xlink:href="../../assets/images/sprite.svg#success"></use>
+                    </svg>
+                </div>
+            </label>
+            <label class="form__label">
+                Error
+                <div class="form__input-wrapper">
+                    <input type="text" class="form__input form__input_invalid" placeholder="placeholder" value="Error">
+                    <svg class="form__icon form__icon_invalid">
+                        <use xlink:href="../../assets/images/sprite.svg#error"></use>
+                    </svg>
+                </div>
+            </label>
+            <label class="form__label">
+                Disabled
+                <input type="text" class="form__input" placeholder="placeholder" disabled>
+            </label>
+        </form>
 
     </body>
 </html>
