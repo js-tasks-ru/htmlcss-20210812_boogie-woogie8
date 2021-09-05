@@ -83,3 +83,18 @@ html, body {
     justify-self: center;
     padding: 24px 0 56px;
 }
+
+.page__box {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+.page__main {        
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 56px;
+    width: 100%;
+    justify-self: center;
+    grid-area: main;
+}
