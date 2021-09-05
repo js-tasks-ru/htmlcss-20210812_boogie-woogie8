@@ -18,28 +18,3 @@
     color: var(--black);
     margin: 40px 0 0;
 }
-
-.header__logo {
-    display: flex;
-}
-
-.header__logo-square {
-    width: 30px;
-    height: 30px;
-    background-color: var(--black);
-    margin-right: 8px;
-}
-
-.header__logo-circle {
-    width: 30px;
-    height: 30px;
-    background-color: var(--black);
-    border-radius: 50%;
-    margin-right: 8px;
-}
-
-.header__logo-triangle {
-    border: 15px solid var(--black);
-    border-top-color: transparent;
-    border-right-color: transparent;
-}
