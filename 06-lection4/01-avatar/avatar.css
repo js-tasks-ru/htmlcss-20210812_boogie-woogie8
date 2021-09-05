@@ -1,9 +1,6 @@
-:root {
+.avatar {
     --avatar-width: 160px;
     --avatar-height: 160px;
-}
-
-.avatar {
     width: var(--avatar-width);
     height: var(--avatar-height);
     display: flex;
