@@ -1,4 +1,11 @@
 .main {
     background-color: var(--main);
-    padding: 67px 0 204px
+    padding-bottom: 50px
+}
+
+@media screen and (min-width: 1440px) {
+    .main {
+        padding: 67px 0 204px
+    }
+  
 }
