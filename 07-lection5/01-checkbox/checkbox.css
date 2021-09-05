@@ -26,7 +26,7 @@
     height: 28px;
     border-radius: 4px;
     background: var(--white);
-    border: 1px solid #DDE2E5;
+    border: 1px solid var(--grey-2);
     box-sizing: border-box;
 }
 
