@@ -7,6 +7,10 @@
     background-color: var(--blue-link);
 }
 
+.modal__icon {
+    fill: var(--grey-4);
+}
+
 .modal__window {
     display: none;
     position: fixed;
@@ -55,7 +59,7 @@
     display: block;
     position: absolute;
     top: 12px;
-    right: 12px;
+    right: 22px;
     width: 16px;
     height: 16px;
     padding: 0;
