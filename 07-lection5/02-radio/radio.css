@@ -30,10 +30,6 @@
     box-sizing: border-box;
 }
 
-.radio__icon {
-    display: none;
-}
-
 .radio__input:checked ~ .radio__state .radio__control {
     border: 2px solid var(--blue-link);
     position: relative;
@@ -48,11 +44,6 @@
     height: 18px;
     background-color: var(--blue-link);
     border-radius: 50%;
-}
-
-.radio__input:checked ~ .radio__state .radio__icon  {
-    display: block;
-    fill: var(--white);
 }
 
 .radio__input:focus ~ .radio__state .radio__label {
