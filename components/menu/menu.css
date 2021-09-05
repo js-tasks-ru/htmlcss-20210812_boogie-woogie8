@@ -1,7 +1,5 @@
-@media screen and (min-width: 375px) {
-    .menu {
-        display: none;
-    }
+.menu {
+    display: none;
 }
 
 @media screen and (min-width: 1440px) {

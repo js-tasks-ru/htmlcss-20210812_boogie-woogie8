@@ -1,14 +1,12 @@
-@media screen and (min-width: 375px) {
-    .card {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 164px;
-        background-color: var(--white);
-        border-radius: 12px;
-        box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-        border-radius: 12px;
-        height: 210px;
-    }
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 164px;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    height: 210px;
 }
 
 @media screen and (min-width: 1440px) {
