@@ -6,38 +6,38 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-        <form class="form">
-            <label class="form__label">
+        <div class="input">
+            <label class="input__label">
                 Label
-                <input type="text" class="form__input" placeholder="Placeholder">
+                <input type="text" class="input__field" placeholder="Placeholder">
             </label>
-            <label class="form__label">
+            <label class="input__label">
                 Focus
-                <input type="text" class="form__input" placeholder="placeholder" value="Filled input" autofocus>
+                <input type="text" class="input__field" placeholder="placeholder" value="Filled input" autofocus>
             </label>
-            <label class="form__label">
+            <label class="input__label">
                 Success
-                <div class="form__input-wrapper">
-                    <input type="text" class="form__input form__input_success" placeholder="placeholder" value="Success">
-                    <svg class="form__icon form__icon_success">
+                <div class="input__wrapper">
+                    <input type="text" class="input__field input__field_success" placeholder="placeholder" value="Success">
+                    <svg class="input__icon input__icon_success">
                         <use xlink:href="../../assets/images/sprite.svg#success"></use>
                     </svg>
                 </div>
             </label>
-            <label class="form__label">
+            <label class="input__label">
                 Error
-                <div class="form__input-wrapper">
-                    <input type="text" class="form__input form__input_invalid" placeholder="placeholder" value="Error">
-                    <svg class="form__icon form__icon_invalid">
+                <div class="input__wrapper">
+                    <input type="text" class="input__field input__field_invalid" placeholder="placeholder" value="Error">
+                    <svg class="input__icon input__icon_invalid">
                         <use xlink:href="../../assets/images/sprite.svg#error"></use>
                     </svg>
                 </div>
             </label>
-            <label class="form__label">
+            <label class="input__label">
                 Disabled
-                <input type="text" class="form__input" placeholder="placeholder" disabled>
+                <input type="text" class="input__field" placeholder="placeholder" disabled>
             </label>
-        </form>
+        </div>
 
     </body>
 </html>
