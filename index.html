@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./components/footer/footer.css">
         <link rel="stylesheet" href="./components/preview/preview.css">
         <link rel="stylesheet" href="./components/card/card.css">
+        <link rel="stylesheet" href="./components/tabs/tabs.css">
     </head>
     <body class="page">
         <header class="header">
@@ -32,6 +33,24 @@
             </div>
         </header>
         <main class="main">
+            <div class="tabs">
+                <input type="radio" id="#all-tab" name="radio" class="tabs__input visually-hidden" checked>
+                <input type="radio" id="#atoms-tab" name="radio" class="tabs__input visually-hidden">
+                <input type="radio" id="#simple-tab" name="radio" class="tabs__input visually-hidden">
+            
+                <div class="tabs__scroller">
+                    <label for="#all-tab" class="tabs__label">All components</label>
+                    <label for="#complex-tab" class="tabs__label">Complex</label>
+                    <label for="#simple-tab"class="tabs__label">Simple</label>
+                </div>
+            
+                <div class="tabs__content tabs__content_complex">
+                    <!-- Сложные компоненты -->
+                </div>
+                <div class="tabs__content tabs__content_simple">
+                    <!-- Простые компоненты -->
+                </div>
+            </div>
             <div class="page__box preview">
                 <div class="card"></div>
                 <div class="card"></div>

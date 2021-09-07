@@ -2,7 +2,6 @@
     background-color: var(--white);
     padding: 0 0 53px;
     font-family: Inter;
-    border-bottom: 1px solid var(--grey-2);
 }
 
 .header_template {

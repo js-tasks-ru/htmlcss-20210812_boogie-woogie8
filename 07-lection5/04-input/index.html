@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./input.css">
+</head>
+
+<body>
+    <div class="input">
+        <label class="input__label">
+            Label
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="Placeholder">
+            </div>
+        </label>
+    </div>
+    <div class="input">
+        <label class="input__label">
+            Focus
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="placeholder" value="Filled input" autofocus>
+            </div>
+        </label>
+    </div>
+    <div class="input input_success">
+        <label class="input__label">
+            Success
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="placeholder" value="Success">
+                <svg class="input__icon">
+                    <use xlink:href="../../assets/images/sprite.svg#success"></use>
+                </svg>
+            </div>
+        </label>
+    </div>
+    <div class="input input_error">
+        <label class="input__label">
+            Error
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="placeholder" value="Error">
+                <svg class="input__icon">
+                    <use xlink:href="../../assets/images/sprite.svg#error"></use>
+                </svg>
+            </div>
+        </label>
+    </div>
+    <div class="input">
+        <label class="input__label">
+            Disabled
+            <div class="input__wrapper">
+                <input type="text" class="input__field" placeholder="placeholder" disabled>
+            </div>
+        </label>
+    </div>
+
+</body>
+
 </html>
