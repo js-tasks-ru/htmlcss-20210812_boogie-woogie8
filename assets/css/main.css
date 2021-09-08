@@ -15,7 +15,7 @@
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
-    --grey-4: #495057;
+    --grey-4: #0a3057;
     --grey-modal: #c4c4c4;
     --grey-bg: #334D6E;
     --main: #f9fafc;
@@ -65,7 +65,7 @@ html, body {
     "main"
     "footer";
     grid-template-rows: auto 1fr auto;
-    row-gap: 36px;
+    /*row-gap: 36px;*/
 }
 
 .page__box {

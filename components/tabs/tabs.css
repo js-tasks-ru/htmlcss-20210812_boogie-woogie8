@@ -1,0 +1,61 @@
+.tabs {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--grey-2);
+    margin-bottom: 60px;
+}
+
+.tabs__scroller {
+    cursor: pointer;
+}
+
+.tabs__label {
+    cursor: pointer;
+    margin-right: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+}
+
+.tabs__content {
+    display: none;
+}
+
+input[id="#all-tab"]:checked ~ .tabs__scroller .tabs__label[for="#all-tab"] {
+    border-bottom: 3px solid var(--black);
+    color: var(--black);
+}
+
+input[id="#elements-tab"]:checked ~ .tabs__scroller .tabs__label[for="#elements-tab"] {
+    border-bottom: 3px solid var(--black);
+    color: var(--black);
+}
+
+input[id="#containers-tab"]:checked ~ .tabs__scroller .tabs__label[for="#containers-tab"] {
+    border-bottom: 3px solid var(--black);
+    color: var(--black);
+}
+
+input[id="#templates-tab"]:checked ~ .tabs__scroller .tabs__label[for="#templates-tab"] {
+    border-bottom: 3px solid var(--black);
+    color: var(--black);
+}
+
+input[id="#all-tab"]:checked ~ .tabs__content_all {
+    display: block;
+}
+
+
+input[id="#elements-tab"]:checked ~ .tabs__content_elements {
+    display: block;
+}
+
+input[id="#containers-tab"]:checked ~ .tabs__content_containers {
+    display: block;
+}
+
+input[id="#templates-tab"]:checked ~ .tabs__content_templates{
+    display: block;
+}
