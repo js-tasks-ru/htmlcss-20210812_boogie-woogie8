@@ -1,6 +1,7 @@
 .tabs {
     background-color: var(--white);
     border-bottom: 1px solid var(--grey-2);
+<<<<<<< HEAD
     margin-bottom: 60px;
 }
 
@@ -11,11 +12,17 @@
 .tabs__label {
     cursor: pointer;
     margin-right: 40px;
+=======
+}
+
+.tabs__label {
+>>>>>>> 40d2d655256ebb2ce29255eb430a8e742ee9d67a
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+<<<<<<< HEAD
     color: var(--grey-3);
 }
 
@@ -58,4 +65,16 @@ input[id="#containers-tab"]:checked ~ .tabs__content_containers {
 
 input[id="#templates-tab"]:checked ~ .tabs__content_templates{
     display: block;
+=======
+    margin-right: 40px;
+    color: var(--grey-3);
+    cursor: pointer;
+}
+
+
+.tabs__input:checked ~ .tabs__label {
+    color: var(--black);
+    border-bottom: 3px solid var(--black);
+
+>>>>>>> 40d2d655256ebb2ce29255eb430a8e742ee9d67a
 }
