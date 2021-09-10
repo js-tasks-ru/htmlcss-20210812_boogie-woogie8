@@ -34,21 +34,29 @@
         </header>
         <main class="main">
             <div class="tabs">
-                <input type="radio" id="#all-tab" name="radio" class="tabs__input visually-hidden" checked>
-                <input type="radio" id="#atoms-tab" name="radio" class="tabs__input visually-hidden">
-                <input type="radio" id="#simple-tab" name="radio" class="tabs__input visually-hidden">
-            
-                <div class="tabs__scroller">
-                    <label for="#all-tab" class="tabs__label">All components</label>
-                    <label for="#complex-tab" class="tabs__label">Complex</label>
-                    <label for="#simple-tab"class="tabs__label">Simple</label>
-                </div>
-            
-                <div class="tabs__content tabs__content_complex">
-                    <!-- Сложные компоненты -->
-                </div>
-                <div class="tabs__content tabs__content_simple">
-                    <!-- Простые компоненты -->
+                <div class="page__box">
+                    <input type="radio" id="#all-tab" name="tab" class="tabs__input visually-hidden" checked>
+                    <input type="radio" id="#elements-tab" name="tab" class="tabs__input visually-hidden">
+                    <input type="radio" id="#containers-tab" name="tab" class="tabs__input visually-hidden">
+                    <input type="radio" id="#templates-tab" name="tab" class="tabs__input visually-hidden">
+                    <div class="tabs__scroller">
+                        <label for="#all-tab" class="tabs__label">All components</label>
+                        <label for="#elements-tab" class="tabs__label">Elements</label>
+                        <label for="#containers-tab" class="tabs__label">Containers</label>
+                        <label for="#templates-tab" class="tabs__label">Templates</label>
+                    </div>
+                    <div class="tabs__content tabs__content_all">
+                        All components 
+                    </div>
+                    <div class="tabs__content tabs__content_elements">
+                        Elements 
+                    </div>
+                    <div class="tabs__content tabs__content_containers">
+                        Containers 
+                    </div>
+                    <div class="tabs__content tabs__content_templates">
+                        Templates 
+                    </div>
                 </div>
             </div>
             <div class="page__box preview">

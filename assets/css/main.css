@@ -65,7 +65,7 @@ html, body {
     "main"
     "footer";
     grid-template-rows: auto 1fr auto;
-    row-gap: 36px;
+    /*row-gap: 36px;*/
 }
 
 .page__box {
