@@ -31,7 +31,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -43,7 +44,7 @@ html, body {
     height: 0;
     pointer-events: none;
     outline: none;
-  }
+}
 
 /*.page {
     display: flex;
@@ -54,9 +55,9 @@ html, body {
     height: 100%;
     background-color: var(--main);
     display: grid;
-    grid-template-areas: "header"
-    "main"
-    "footer";
+    grid-template-areas: 'header'
+        'main'
+        'footer';
     grid-template-rows: auto 1fr auto;
     /*row-gap: 36px;*/
 

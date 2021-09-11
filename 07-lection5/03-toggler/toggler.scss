@@ -29,7 +29,7 @@
         position: relative;
         
         &::before {
-            content: "";
+            content: '';
             position: absolute;
             width: 24px;
             height: 24px;
@@ -60,7 +60,7 @@
         border-color: var(--grey-2);
         &::before {
             background: var(--grey-3);
-            opacity: 0.25;
+            opacity: .25;
         }
     }
 }
