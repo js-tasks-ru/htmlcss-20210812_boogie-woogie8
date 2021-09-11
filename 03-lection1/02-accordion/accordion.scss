@@ -1,0 +1,36 @@
+/* Стилизация аккордеона */
+.accordion {
+    &__summary {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &::-webkit-details-marker {
+        display: none;
+    }
+
+    &__item[open] .accordion__icon {
+        transform: rotate(180deg);
+    }
+
+    &__item {
+        margin-bottom: 8px;
+        border: 1px solid var(--grey-3);
+        border-radius: 8px;
+        padding: 24px 32px 16px;
+        color: var(--grey-4);
+        font-size: 16px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__icon {
+        width: 30px;
+        height: 20px;
+        display: block;
+    }
+}
